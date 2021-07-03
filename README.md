@@ -1,4 +1,4 @@
-# AIRBNB Clone
+# AIRBNB Clone (Create-React-App + Tailwind CSS)
 
 ## Under Construction
 
