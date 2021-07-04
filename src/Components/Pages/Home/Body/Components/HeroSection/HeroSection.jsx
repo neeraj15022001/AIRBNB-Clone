@@ -11,17 +11,19 @@ function HeroSection() {
   `;
   return (
     <Wrapper img={hero} className="h-2/3 p-4 relative">
-      <div className="w-full bg-white flex items-center justify-center py-3 rounded-full">
-        <SearchIcon className="h-6 text-red-600 mr-2" />
-        <input
-          type="text"
-          name="search"
-          placeholder="Where are you going?"
-          className="outline-none"
-        />
+      <div className="w-full bg-white py-3 sticky top-0 left-0 right-0">
+        <div className="w-full bg-white flex items-center justify-center py-3 rounded-full">
+          <SearchIcon className="h-6 text-red-600 mr-2" />
+          <input
+            type="text"
+            name="search"
+            placeholder="Where are you going?"
+            className="outline-none"
+          />
+        </div>
       </div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col">
-        <p className="font-medium text-center mb-4">
+        <p className="font-medium text-center mb-4 text-lg">
           Not sure where to go? <br />{" "}
           <span className="capitalize">perfect.</span>
         </p>

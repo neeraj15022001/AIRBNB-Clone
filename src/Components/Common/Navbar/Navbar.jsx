@@ -7,7 +7,7 @@ import {
 
 function Navbar() {
   return (
-    <div className="py-3 flex items-center justify-center border-t fixed bottom-0 left-0 right-0">
+    <div className="py-2 flex items-center justify-center border-t fixed bottom-0 left-0 right-0 bg-white">
       <div className="w-1/2 flex items-center justify-between">
         <div className="flex items-center justify-center flex-col">
           <SearchIcon className="h-7 text-red-600" />
