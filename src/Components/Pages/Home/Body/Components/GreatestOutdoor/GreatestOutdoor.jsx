@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function GreatestOutdoor() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div></div>;
 }
 
-export default GreatestOutdoor
+export default GreatestOutdoor;
