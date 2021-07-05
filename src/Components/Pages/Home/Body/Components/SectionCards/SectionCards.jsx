@@ -16,7 +16,10 @@ function SectionCards({
     background-size: cover;
   `;
   return (
-    <div className="mb-12 flex items-center justify-center overflow-hidden" style={{height: "35rem"}}>
+    <div
+      className="mb-12 flex items-center justify-center overflow-hidden"
+      style={{ height: "35rem" }}
+    >
       <ImageWrapper img={bg} className="w-5/6 h-full rounded-xl">
         <div className="flex flex-col items-center justify-center mt-8 px-5">
           <p

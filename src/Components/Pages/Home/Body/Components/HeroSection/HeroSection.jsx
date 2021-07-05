@@ -9,7 +9,7 @@ function HeroSection() {
     background-repeat: repeat-x;
   `;
   return (
-    <Wrapper img={hero} className="p-4 relative" style={{height: "35rem"}}>
+    <Wrapper img={hero} className="p-4 relative" style={{ height: "35rem" }}>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col">
         <p className="font-medium text-center mb-4 text-lg">
           Not sure where to go? <br />{" "}

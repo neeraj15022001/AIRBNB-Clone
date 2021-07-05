@@ -10,7 +10,7 @@ function App() {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
       hide(() => false);
     } else {
-      hide(() => true)
+      hide(() => true);
     }
   };
   return (
