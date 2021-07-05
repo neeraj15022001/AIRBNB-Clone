@@ -20,5 +20,4 @@ self.addEventListener("fetch", (event) => {
       .then((cachedResponse) => cachedResponse || fetch(event.requests))
       .catch((err) => console.log("fetch failed", err))
   );
-  event.waitUntil();
 });

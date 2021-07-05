@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import hero from "./Resources/hero.jpg";
 
+const Wrapper = styled.div`
+  background-image: url(${(props) => props.img});
+  background-size: contain;
+  background-repeat: repeat-x;
+`;
+
 function HeroSection() {
-  const Wrapper = styled.div`
-    background-image: url(${(props) => props.img});
-    background-size: contain;
-    background-repeat: repeat-x;
-  `;
   return (
     <Wrapper img={hero} className="p-4 relative" style={{ height: "35rem" }}>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center flex-col">
