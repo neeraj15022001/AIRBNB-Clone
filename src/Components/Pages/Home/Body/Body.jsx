@@ -10,7 +10,7 @@ import Footer from "./Components/Footer/Footer";
 
 function Body() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-full w-screen">
       <Covid />
       <HeroSection />
       <Nearby />

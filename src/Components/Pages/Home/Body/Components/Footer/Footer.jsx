@@ -4,7 +4,7 @@ import BottomBar from "./List/BottomBar/BottomBar";
 
 function Footer() {
   return (
-    <div className="pb-20 border-t bg-gray-100 px-7 py-3">
+    <div className="border-t bg-gray-100 px-7 py-3">
       <List
         items={[
           "how airbnb works",
