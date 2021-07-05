@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const ImageWrapper = styled.div`
-    background-image: url(${(props) => props.img});
-    background-size: cover;
-  `;
+  background-image: url(${(props) => props.img});
+  background-size: cover;
+`;
 
 function SectionCards({
   title,

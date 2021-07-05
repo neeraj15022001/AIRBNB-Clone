@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const ImageWrapper = styled.div`
-    background-image: url(${(props) => props.img});
-    background-repeat: no-repeat;
-    background-size: contain;
-  `;
+  background-image: url(${(props) => props.img});
+  background-repeat: no-repeat;
+  background-size: contain;
+`;
 
 function Card({ city, time, img }) {
   return (

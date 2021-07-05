@@ -3,10 +3,10 @@ import styled from "styled-components";
 import hero from "./Resources/hero.jpg";
 
 const Wrapper = styled.div`
-    background-image: url(${(props) => props.img});
-    background-size: contain;
-    background-repeat: repeat-x;
-  `;
+  background-image: url(${(props) => props.img});
+  background-size: contain;
+  background-repeat: repeat-x;
+`;
 
 function HeroSection() {
   return (
