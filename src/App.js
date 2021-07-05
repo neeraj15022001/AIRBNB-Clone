@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import Navbar from "./Components/Common/Navbar/Navbar";
+import Body from "./Components/Pages/Home/Body/Body";
 
 function App() {
   return (
-    <div className="bg-red-700 text-white h-screen flex items-center justify-center">
-      <h1 className="text-7xl py-6 text-center">
-        <span className="text-red-900 text-9xl">AIRBNB</span> under construction
-      </h1>
+    <div>
+      <Body />
+      <Navbar />
     </div>
   );
 }
