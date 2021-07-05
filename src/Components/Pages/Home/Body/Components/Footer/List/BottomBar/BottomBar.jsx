@@ -16,16 +16,16 @@ function BottomBar() {
       </div>
 
       <div className="pl-1">
-          <span>© 2021 Airbnb,Inc</span>
+        <span>© 2021 Airbnb,Inc</span>
       </div>
       <div className="pl-1">
-         <a href="#privacy">Privacy</a> 
-         <span className="px-2">·</span>
-         <a href="#privacy">Terms</a> 
-         <span className="px-2">·</span>
-         <a href="#privacy">Sitemap</a> 
-         <span className="px-2">·</span>
-         <a href="#privacy">Company details</a> 
+        <a href="#privacy">Privacy</a>
+        <span className="px-2">·</span>
+        <a href="#privacy">Terms</a>
+        <span className="px-2">·</span>
+        <a href="#privacy">Sitemap</a>
+        <span className="px-2">·</span>
+        <a href="#privacy">Company details</a>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <Wrapper img={hero} className="h-2/3 p-4 relative">
       <div className="w-full bg-white py-3 sticky top-0 left-0 right-0 z-10">
-        <div className="w-full bg-white flex items-center justify-center py-3 rounded-full" >
+        <div className="w-full bg-white flex items-center justify-center py-3 rounded-full">
           <SearchIcon className="h-6 text-red-600 mr-2" />
           <input
             type="text"
