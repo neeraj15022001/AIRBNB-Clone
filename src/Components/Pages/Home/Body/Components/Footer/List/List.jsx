@@ -7,7 +7,7 @@ function List({ items, listTitle }) {
       <p className="uppercase font-bold text-sm mb-3">{listTitle}</p>
       <div>
         {items.map((item) => (
-          <ListItem item={item} />
+          <ListItem key={item} item={item} />
         ))}
       </div>
     </div>

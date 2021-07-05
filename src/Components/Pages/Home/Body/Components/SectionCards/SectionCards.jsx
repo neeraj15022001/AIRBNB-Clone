@@ -1,6 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
+const ImageWrapper = styled.div`
+    background-image: url(${(props) => props.img});
+    background-size: cover;
+  `;
+
 function SectionCards({
   title,
   titleColorClass,
@@ -11,10 +16,6 @@ function SectionCards({
   buttonTextColor,
   bg,
 }) {
-  const ImageWrapper = styled.div`
-    background-image: url(${(props) => props.img});
-    background-size: cover;
-  `;
   return (
     <div
       className="mb-12 flex items-center justify-center overflow-hidden"

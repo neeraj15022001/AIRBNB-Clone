@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-function Card({ city, time, img }) {
-  const ImageWrapper = styled.div`
+const ImageWrapper = styled.div`
     background-image: url(${(props) => props.img});
     background-repeat: no-repeat;
     background-size: contain;
   `;
+
+function Card({ city, time, img }) {
   return (
     <div className="flex items-center justify-start mb-3 w-80">
       <ImageWrapper img={img} className="rounded-lg h-14 w-14 mr-4" />
