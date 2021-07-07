@@ -23,9 +23,9 @@ function App() {
 
   return (
     <div className="h-full">
-      {/* <SearchBar /> */}
+      <SearchBar />
       <Body />
-      {/* <Navbar className={isVisible ? "block" : "hidden"} /> */}
+      <Navbar className={isVisible ? "block" : "hidden"} />
     </div>
   );
 }

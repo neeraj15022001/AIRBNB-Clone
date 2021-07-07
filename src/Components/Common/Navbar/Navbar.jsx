@@ -8,7 +8,7 @@ import {
 function Navbar({ className }) {
   return (
     <div
-      className={`${className} py-2 flex items-center justify-center border-t fixed bottom-0 left-0 right-0 bg-white`}
+      className={`${className} py-2 flex items-center justify-center border-t fixed bottom-0 left-0 right-0 bg-white lg:hidden`}
     >
       <div className="w-1/2 flex items-center justify-between">
         <div className="flex items-center justify-center flex-col">
