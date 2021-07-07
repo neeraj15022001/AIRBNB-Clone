@@ -4,7 +4,7 @@ import { delhi, newDelhi, gurugram, jaipur } from "./Images.js";
 
 function Nearby() {
   return (
-    <div className="pt-8 px-6 mb-5">
+    <div className="pt-8 px-6 mb-5 lg:px-20">
       <p className="capitalize font-semibold text-xl mb-4">explore nearby</p>
       <div className="flex overflow-auto">
         <CardSection
@@ -14,6 +14,22 @@ function Nearby() {
           city2Time="5"
           img1={newDelhi}
           img2={delhi}
+        />
+        <CardSection
+          city1="gurugram"
+          city2="jaipur"
+          city1Time="5"
+          city2Time="7"
+          img1={gurugram}
+          img2={jaipur}
+        />
+        <CardSection
+          city1="gurugram"
+          city2="jaipur"
+          city1Time="5"
+          city2Time="7"
+          img1={gurugram}
+          img2={jaipur}
         />
         <CardSection
           city1="gurugram"

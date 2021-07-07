@@ -3,7 +3,7 @@ import React from "react";
 
 function BottomBar() {
   return (
-    <div className="py-6">
+    <div className="py-6 bg-gray-100 px-7 lg:flex items-start justify-evenly">
       <div className="flex items-center mb-4">
         <div className="mr-6 flex items-center justify-center">
           <GlobeIcon className="w-6 mr-2" />
