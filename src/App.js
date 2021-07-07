@@ -7,11 +7,11 @@ import SearchBar from "./SearchBar/SearchBar";
 function App() {
   const [isVisible, hide] = useState(true);
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleScroll = () => {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
@@ -19,8 +19,8 @@ function App() {
     } else {
       hide(() => true);
     }
-  }
-  
+  };
+
   return (
     <div className="h-full">
       {/* <SearchBar /> */}

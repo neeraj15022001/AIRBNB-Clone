@@ -21,7 +21,10 @@ function SectionCards({
       className="mb-12 flex items-center justify-center overflow-hidden"
       style={{ height: "35rem" }}
     >
-      <ImageWrapper img={bg} className="w-5/6 h-full rounded-xl lg:w-full lg:mx-20">
+      <ImageWrapper
+        img={bg}
+        className="w-5/6 h-full rounded-xl lg:w-full lg:mx-20"
+      >
         <div className="flex flex-col items-center justify-center mt-8 px-5 lg:h-full lg:items-start lg:mt-0 lg:pl-20">
           <p
             className={` ${titleColorClass} capitalize text-3xl lg:text-5xl font-medium text-center mb-3`}
