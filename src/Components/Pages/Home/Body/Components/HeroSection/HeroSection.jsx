@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import hero from "./Resources/hero.jpg";
-import Navbar from "./LargeScreenNav/Navbar"
+import Navbar from "./LargeScreenNav/Navbar";
 
 const Wrapper = styled.div`
   background-image: url(${(props) => props.img});
