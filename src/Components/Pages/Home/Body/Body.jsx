@@ -16,7 +16,7 @@ function Body() {
       <Nearby />
       <Live />
       <SectionCards
-        bg={window.innerWidth < 1024 ?  bg1 : bglg1}
+        bg={window.innerWidth < 1024 ? bg1 : bglg1}
         title="the greatest outdoors"
         titleColorClass="text-black"
         subtitle="Wishlists curated by Airbnb."
@@ -27,7 +27,7 @@ function Body() {
       />
       <Discover />
       <SectionCards
-        bg={window.innerWidth < 1024 ?  bg2 : bglg2}
+        bg={window.innerWidth < 1024 ? bg2 : bglg2}
         title="try hosting"
         titleColorClass="text-white"
         subtitle="Earn extra income and unlock new oppurtunities by sharing your space."
